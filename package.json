@@ -2,12 +2,13 @@
   "name": "vitebutnotoomuch",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-sitemap": "ts-node scripts/sitemap.ts",
+    "generate-sitemap": "node scripts/sitemap.js",
     "prebuild": "npm run generate-sitemap"
   },
   "dependencies": {

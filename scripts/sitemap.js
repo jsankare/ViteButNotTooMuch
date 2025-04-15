@@ -1,35 +1,37 @@
-// scripts/sitemap.ts
-import fs from 'fs'
-import { getAllPosts } from '../src/lib/blog'
-import { getAllChallenges } from '../src/lib/challenges'
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import { dirname, join } from 'path';
+import { blogPosts } from '../src/lib/blog.js';
+// import { challenges } from '../src/lib/challenges.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 async function generateSitemap() {
-  const baseUrl = 'https://vite-but-not-too-much.vercel.app'
-  
-  // Pages statiques
+  const baseUrl = 'https://vite-but-not-too-much.vercel.app';
+
+  // Static pages
   const staticPages = [
     '',
     '/about',
     '/browse',
     '/blog',
-  ]
+  ];
 
-  // Récupérer tous les articles de blog
-  const blogPosts = await getAllPosts()
-  const blogUrls = blogPosts.map(post => `/blog/${post.slug}`)
+  // Get all blog posts
+  const blogUrls = blogPosts.map(post => `/blog/${post.slug}`);
 
-  // Récupérer tous les défis
-  const challenges = await getAllChallenges()
-  const challengeUrls = challenges.map(challenge => `/challenges/${challenge.slug}`)
+  // Get all challenges
+  // const challengeUrls = challenges.map(challenge => `/challenges/${challenge.id}`);
 
-  // Combiner toutes les URLs
-  const allUrls = [...staticPages, ...blogUrls, ...challengeUrls]
+  // Combine all URLs
+  const allUrls = [...staticPages, ...blogUrls];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       ${allUrls
-        .map(url => {
-          return `
+      .map(url => {
+        return `
             <url>
               <loc>${baseUrl}${url}</loc>
               <lastmod>${new Date().toISOString()}</lastmod>
@@ -37,13 +39,19 @@ async function generateSitemap() {
               <priority>${url === '' ? '1.0' : '0.8'}</priority>
             </url>
           `
-        })
-        .join('')}
+      })
+      .join('')}
     </urlset>
-  `
+  `;
 
-  fs.writeFileSync('public/sitemap.xml', sitemap)
-  console.log('Sitemap generated successfully!')
+  // Ensure the public directory exists
+  const publicDir = join(__dirname, '..', 'public');
+  if (!fs.existsSync(publicDir)) {
+    fs.mkdirSync(publicDir, { recursive: true });
+  }
+
+  fs.writeFileSync(join(publicDir, 'sitemap.xml'), sitemap);
+  console.log('Sitemap generated successfully!');
 }
 
-generateSitemap()
+generateSitemap();

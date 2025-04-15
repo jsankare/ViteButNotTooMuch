@@ -1,12 +1,4 @@
-export type Challenge = {
-  id: string;
-  title: string;
-  description: string;
-  category: "Mind" | "Wellness" | "Learning";
-  duration: 5 | 10 | 15;
-};
-
-export const challenges: Challenge[] = [
+export const challenges = [
   {
     id: "1",
     title: "Mindful Breathing",
@@ -28,20 +20,19 @@ export const challenges: Challenge[] = [
     category: "Learning",
     duration: 5,
   },
-  // Add more challenges here
 ];
 
-export function getRandomChallenge(): Challenge {
+export function getRandomChallenge() {
   const randomIndex = Math.floor(Math.random() * challenges.length);
   return challenges[randomIndex];
 }
 
-export function getChallengesByCategory(category?: Challenge["category"]) {
+export function getChallengesByCategory(category) {
   if (!category) return challenges;
   return challenges.filter((challenge) => challenge.category === category);
 }
 
-export function getChallengesByDuration(duration?: Challenge["duration"]) {
+export function getChallengesByDuration(duration) {
   if (!duration) return challenges;
   return challenges.filter((challenge) => challenge.duration === duration);
 }
