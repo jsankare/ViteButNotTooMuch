@@ -1,0 +1,6 @@
+# public/robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://vite-but-not-too-much.vercel.app/sitemap.xml
