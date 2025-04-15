@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { getChallengesByCategory, getChallengesByDuration, type Challenge } from "@/lib/challenges";
 
-export default function Browse() {
+function BrowseContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get("category") as Challenge["category"] | undefined;
@@ -82,5 +82,13 @@ export default function Browse() {
           ))}
         </div>
       </div>
+  );
+}
+
+export default function Browse() {
+  return (
+      <Suspense fallback={<div>Loading...</div>}>
+        <BrowseContent />
+      </Suspense>
   );
 }
