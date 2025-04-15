@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/navigation";
 import Script from "next/script";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
     variable: "--font-sans",
@@ -71,6 +72,7 @@ export default function RootLayout({
                 {children}
             </main>
         </ThemeProvider>
+        <Analytics />
         </body>
         </html>
     );
