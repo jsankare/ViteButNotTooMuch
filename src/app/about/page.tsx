@@ -10,7 +10,7 @@ export default function About() {
           consistent, manageable steps rather than unsustainable bursts of activity.
         </p>
         <p>
-          Move fast, but don't burn out. This balance is key to long-term success 
+          Move fast, but don&apos;t burn out. This balance is key to long-term success 
           and sustainable personal growth.
         </p>
       </section>
@@ -18,7 +18,7 @@ export default function About() {
       <section className="mb-8">
         <h2>How It Works</h2>
         <p>
-          Each day, you're presented with a micro-challenge. These challenges are 
+          Each day, you&apos;re presented with a micro-challenge. These challenges are 
           designed to be completed in 5-15 minutes, making them accessible regardless 
           of your schedule.
         </p>
@@ -36,7 +36,7 @@ export default function About() {
         </p>
         <p>
           Our micro-challenges help you build momentum while avoiding burnout. 
-          It's about finding the sweet spot between progress and sustainability.
+          It&apos;s about finding the sweet spot between progress and sustainability.
         </p>
       </section>
     </div>
