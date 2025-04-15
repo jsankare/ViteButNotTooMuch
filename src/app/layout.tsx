@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/navigation";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-mono",
   subsets: ["latin"],
 });
 
@@ -36,25 +36,25 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
+                                     children,
+                                   }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark`}>
-        <ThemeProvider
+      <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark`}>
+      <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        >
-          <Navigation />
-          <main className="min-h-screen max-w-5xl mx-auto px-4 py-8">
-            {children}
-          </main>
-        </ThemeProvider>
+      >
+        <Navigation />
+        <main className="min-h-screen max-w-5xl mx-auto px-4 py-8">
+          {children}
+        </main>
+      </ThemeProvider>
       </body>
-    </html>
+      </html>
   );
 }

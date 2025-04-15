@@ -2,13 +2,15 @@ import { Metadata } from "next";
 import { getPostBySlug, getAllPosts } from "@/lib/blog";
 import { notFound } from "next/navigation";
 
-type Props = {
-  params: { slug: string }
-};
+interface Props {
+  params: {
+    slug: string;
+  };
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(params.slug);
-  
+
   if (!post) {
     return {
       title: 'Post Not Found',
@@ -43,22 +45,22 @@ export default function BlogPost({ params }: Props) {
   }
 
   return (
-    <article className="max-w-2xl mx-auto">
-      <h1>{post.title}</h1>
-      
-      <time className="block text-gray-600 dark:text-gray-400 mb-8">
-        {new Date(post.date).toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-        })}
-      </time>
+      <article className="max-w-2xl mx-auto">
+        <h1>{post.title}</h1>
 
-      <div className="prose dark:prose-invert max-w-none">
-        {post.content.split("\n").map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
-      </div>
-    </article>
+        <time className="block text-gray-600 dark:text-gray-400 mb-8">
+          {new Date(post.date).toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </time>
+
+        <div className="prose dark:prose-invert max-w-none">
+          {post.content.split("\n").map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+          ))}
+        </div>
+      </article>
   );
 }
