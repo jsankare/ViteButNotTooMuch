@@ -1,13 +1,4 @@
-export type BlogPost = {
-  id: string;
-  title: string;
-  slug: string;
-  summary: string;
-  content: string;
-  date: string;
-};
-
-export const blogPosts: BlogPost[] = [
+export const blogPosts = [
   {
     id: "1",
     title: "The Power of Small Steps",
@@ -50,6 +41,6 @@ export function getAllPosts() {
   return blogPosts;
 }
 
-export function getPostBySlug(slug: string) {
+export function getPostBySlug(slug) {
   return blogPosts.find((post) => post.slug === slug);
 }
