@@ -21,7 +21,7 @@ export default function Browse() {
 
   const handleCategoryChange = (category: Challenge["category"] | undefined) => {
     setSelectedCategory(category);
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams(Array.from(searchParams.entries()));
     if (category) {
       params.set("category", category);
     } else {
@@ -32,7 +32,7 @@ export default function Browse() {
 
   const handleDurationChange = (duration: Challenge["duration"] | undefined) => {
     setSelectedDuration(duration);
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams(Array.from(searchParams.entries()));
     if (duration) {
       params.set("duration", duration.toString());
     } else {
