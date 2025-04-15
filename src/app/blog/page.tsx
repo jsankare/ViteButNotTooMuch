@@ -20,7 +20,7 @@ export default function Blog() {
               {post.summary}
             </p>
             <time className="text-sm text-gray-500 dark:text-gray-500">
-              {new Date(post.date).toLocaleDateString("en-US", {
+              {new Date(post.date).toLocaleDateString("fr", {
                 year: "numeric",
                 month: "long",
                 day: "numeric",

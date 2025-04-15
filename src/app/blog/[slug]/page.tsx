@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.summary,
       type: 'article',
       publishedTime: post.date,
-      url: `https://vitebuttoomuch.com/blog/${post.slug}`,
+      url: `https://vite-but-not-too-much.vercel.app/blog/${post.slug}`,
     },
   };
 }
@@ -49,7 +49,7 @@ export default function BlogPost({ params }: Props) {
         <h1>{post.title}</h1>
 
         <time className="block text-gray-600 dark:text-gray-400 mb-8">
-          {new Date(post.date).toLocaleDateString("en-US", {
+          {new Date(post.date).toLocaleDateString("fr", {
             year: "numeric",
             month: "long",
             day: "numeric",
