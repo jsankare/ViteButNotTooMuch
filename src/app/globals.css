@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+
+  h1 {
+    @apply text-4xl font-bold mb-6;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold mb-4;
+  }
+
+  p {
+    @apply mb-4 leading-relaxed;
+  }
+
+  a {
+    @apply text-primary-light dark:text-primary-dark hover:underline;
+  }
+}
+
+.challenge-card {
+  @apply bg-white dark:bg-gray-800 rounded-xl p-6 shadow-sm border border-gray-100 dark:border-gray-700;
+}
+
+.button-primary {
+  @apply bg-primary-light dark:bg-primary-dark text-white px-6 py-3 rounded-full 
+         font-medium hover:opacity-90 transition-opacity;
+}
+
+.button-secondary {
+  @apply bg-gray-100 dark:bg-gray-800 text-text-light dark:text-text-dark px-6 py-3 
+         rounded-full font-medium hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors;
+}
