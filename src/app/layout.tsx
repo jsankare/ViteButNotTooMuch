@@ -28,6 +28,14 @@ export const metadata: Metadata = {
         description: "Small daily actions lead to real progress. Move fast, but don't burn out .. ViteButNotTooMuch",
         url: "https://vite-but-not-too-much.vercel.app/",
         siteName: "ViteButNotTooMuch",
+        images: [
+            {
+                url: "https://vite-but-not-too-much.vercel.app/icons/vitebutnottoomuch.svg",
+                width: 1200,
+                height: 630,
+                alt: "ViteButNotTooMuch - Daily Micro-Challenges",
+            },
+        ],
         locale: "fr_FR",
         type: "website",
     },
