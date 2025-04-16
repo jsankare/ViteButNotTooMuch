@@ -69,11 +69,13 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
         >
-            <Navigation />
-            <main className="min-h-screen max-w-5xl mx-auto px-4 py-8">
-                {children}
+            <div className="flex flex-col min-h-screen">
+                <Navigation />
+                <main className="flex-grow max-w-5xl mx-auto px-4 py-8">
+                    {children}
+                </main>
                 <SocialsSection />
-            </main>
+            </div>
         </ThemeProvider>
         <Analytics />
         </body>
