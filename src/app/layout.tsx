@@ -60,6 +60,7 @@ export default function RootLayout({
             })();
           `}
             </Script>
+            <meta name="google-site-verification" content="YiN8rtHRjhhkVaLHJvWGgkQTlmKxy7LMT2CQuaEmp68" />
         </head>
         <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark`}>
         <ThemeProvider
