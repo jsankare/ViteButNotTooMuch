@@ -25,10 +25,10 @@ export const metadata: Metadata = {
     description: "Small daily actions lead to real progress. Move fast, but don't burn out.",
     openGraph: {
         title: "ViteButNotTooMuch - Daily Micro-Challenges",
-        description: "Small daily actions lead to real progress. Move fast, but don't burn out.",
+        description: "Small daily actions lead to real progress. Move fast, but don't burn out .. ViteButNotTooMuch",
         url: "https://vite-but-not-too-much.vercel.app/",
         siteName: "ViteButNotTooMuch",
-        locale: "en_US",
+        locale: "fr_FR",
         type: "website",
     },
     robots: {
