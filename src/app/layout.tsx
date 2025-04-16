@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         default: "ViteButNotTooMuch - Daily Micro-Challenges",
         template: "%s | ViteButNotTooMuch"
     },
-    description: "Small daily actions lead to real progress. Move fast, but don't burn out.",
+    description: "Small daily actions lead to real progress. Move fast, but don't burn out.. ViteButNotTooMuch",
     openGraph: {
         title: "ViteButNotTooMuch - Daily Micro-Challenges",
         description: "Small daily actions lead to real progress. Move fast, but don't burn out .. ViteButNotTooMuch",
