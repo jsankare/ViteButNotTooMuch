@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/navigation";
+import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import SocialsSection from "@/components/socials";
 
 const inter = Inter({
     variable: "--font-sans",
@@ -70,6 +71,7 @@ export default function RootLayout({
             <Navigation />
             <main className="min-h-screen max-w-5xl mx-auto px-4 py-8">
                 {children}
+                <SocialsSection />
             </main>
         </ThemeProvider>
         <Analytics />
