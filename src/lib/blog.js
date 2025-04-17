@@ -132,7 +132,167 @@ export const blogPosts = [
     `,
     date: "2024-04-11",
     relatedPosts: ["1", "2", "3"],
-  }
+  },
+  {
+  id: "6",
+  title: "ViteButNotTooMuch pour les Entrepreneurs : Guide Spécial Business",
+  slug: "vitebutnottoomuch-entrepreneurs-guide",
+  summary: "Comment appliquer ViteButNotTooMuch dans le monde des affaires pour une croissance durable.",
+  metaTitle: "ViteButNotTooMuch Business | Guide Entrepreneur",
+  metaDescription: "Optimisez votre entreprise avec ViteButNotTooMuch. Découvrez comment allier performance et bien-être dans votre business.",
+  content: `
+<h2>ViteButNotTooMuch en entreprise</h2>
+<ul>
+<li>Gestion de projet optimisée</li>
+<li>Leadership équilibré</li>
+<li>Croissance d'entreprise durable</li>
+</ul>
+
+<h2>Application concrète</h2>
+<ul>
+<li>Réunions efficaces de 15 minutes</li>
+<li>Cycles de travail productifs</li>
+<li>Pauses stratégiques</li>
+</ul>
+
+<h2>Résultats mesurables</h2>
+<ul>
+<li>Augmentation de la productivité</li>
+<li>Réduction du stress</li>
+<li>Meilleure rétention des talents</li>
+</ul>
+  `,
+  date: "2024-04-10",
+  relatedPosts: ["1", "2", "7"],
+},
+{
+  id: "7",
+  title: "ViteButNotTooMuch et Apprentissage : La Méthode des Micro-Progrès",
+  slug: "vitebutnottoomuch-apprentissage-micro-progres",
+  summary: "Découvrez comment apprendre efficacement avec la méthode des micro-progrès ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Learning | Apprentissage Optimisé",
+  metaDescription: "Maîtrisez n'importe quelle compétence avec la méthode d'apprentissage ViteButNotTooMuch. Progression garantie.",
+  content: `
+<h2>Principes d'apprentissage</h2>
+<ul>
+<li>Sessions courtes mais régulières</li>
+<li>Progression par micro-objectifs</li>
+<li>Révisions espacées</li>
+</ul>
+
+<h2>Techniques concrètes</h2>
+<ul>
+<li>La méthode des 5 minutes</li>
+<li>L'apprentissage en spirale</li>
+<li>La révision active</li>
+</ul>
+
+<h2>Domaines d'application</h2>
+<ul>
+<li>Langues étrangères</li>
+<li>Compétences professionnelles</li>
+<li>Développement personnel</li>
+</ul>
+  `,
+  date: "2024-04-09",
+  relatedPosts: ["2", "5", "8"],
+},
+{
+  id: "8",
+  title: "ViteButNotTooMuch et Bien-être : L'Art de la Progression Douce",
+  slug: "vitebutnottoomuch-bien-etre-progression-douce",
+  summary: "Comment utiliser ViteButNotTooMuch pour améliorer votre bien-être global sans stress.",
+  metaTitle: "ViteButNotTooMuch Bien-être | Progression Zen",
+  metaDescription: "Améliorez votre bien-être avec ViteButNotTooMuch. Découvrez une approche douce et efficace du développement personnel.",
+  content: `
+<h2>Piliers du bien-être</h2>
+<ul>
+<li>Exercice physique progressif</li>
+<li>Méditation accessible</li>
+<li>Alimentation consciente</li>
+</ul>
+
+<h2>Pratiques quotidiennes</h2>
+<ul>
+<li>Micro-séances de relaxation</li>
+<li>Exercices de respiration</li>
+<li>Moments de gratitude</li>
+</ul>
+
+<h2>Bénéfices à long terme</h2>
+<ul>
+<li>Réduction du stress</li>
+<li>Meilleur sommeil</li>
+<li>Énergie stable</li>
+</ul>
+  `,
+  date: "2024-04-08",
+  relatedPosts: ["4", "5", "9"],
+},
+{
+  id: "9",
+  title: "ViteButNotTooMuch : Guide Complet pour Débutants",
+  slug: "vitebutnottoomuch-guide-debutants",
+  summary: "Le guide essentiel pour bien démarrer avec la méthode ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Débutants | Guide Complet",
+  metaDescription: "Guide pas à pas pour débuter avec ViteButNotTooMuch. Tout ce que vous devez savoir pour commencer votre transformation.",
+  content: `
+<h2>Par où commencer ?</h2>
+<ul>
+<li>Évaluation initiale</li>
+<li>Définition des objectifs</li>
+<li>Premiers pas guidés</li>
+</ul>
+
+<h2>Premières actions</h2>
+<ul>
+<li>Mini-habitudes de 2 minutes</li>
+<li>Suivi simple des progrès</li>
+<li>Célébration des victoires</li>
+</ul>
+
+<h2>Éviter les pièges</h2>
+<ul>
+<li>Les erreurs communes</li>
+<li>Solutions pratiques</li>
+<li>Ajustements progressifs</li>
+</ul>
+  `,
+  date: "2024-04-07",
+  relatedPosts: ["1", "2", "8"],
+},
+{
+  id: "10",
+  title: "ViteButNotTooMuch : Créer des Habitudes qui Durent",
+  slug: "vitebutnottoomuch-habitudes-durables",
+  summary: "Méthodologie ViteButNotTooMuch pour développer des habitudes qui persistent dans le temps.",
+  metaTitle: "ViteButNotTooMuch Habitudes | Changements Durables",
+  metaDescription: "Créez des habitudes durables avec ViteButNotTooMuch. Découvrez comment transformer votre vie, une petite action à la fois.",
+  content: `
+<h2>Formation des habitudes</h2>
+<ul>
+<li>Le cycle des micro-habitudes</li>
+<li>Points de déclenchement</li>
+<li>Systèmes de récompense</li>
+</ul>
+
+<h2>Stratégies d'ancrage</h2>
+<ul>
+<li>Technique du chaînage</li>
+<li>Empilage d'habitudes</li>
+<li>Rituels quotidiens</li>
+</ul>
+
+<h2>Maintien à long terme</h2>
+<ul>
+<li>Suivi des progrès</li>
+<li>Ajustements flexibles</li>
+<li>Motivation durable</li>
+</ul>
+  `,
+  date: "2024-04-06",
+  relatedPosts: ["2", "7", "9"],
+}
 ];
 
 export function getAllPosts() {
