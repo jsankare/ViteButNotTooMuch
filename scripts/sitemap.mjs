@@ -27,7 +27,7 @@ async function generateSitemap() {
   ${staticRoutes.map(route => `
     <url>
       <loc>${baseUrl}${route}</loc>
-      <changefreq>weekly</changefreq>
+      <changefreq>monthly</changefreq>
       <priority>${route === '/' ? '1.0' : '0.8'}</priority>
     </url>
   `).join('')}
@@ -35,7 +35,7 @@ async function generateSitemap() {
     <url>
       <loc>${baseUrl}/blog/${post.slug}</loc>
       <lastmod>${new Date(post.date).toISOString()}</lastmod>
-      <changefreq>monthly</changefreq>
+      <changefreq>weekly</changefreq>
       <priority>0.6</priority>
     </url>
   `).join('')}

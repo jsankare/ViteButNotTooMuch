@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-sitemap": "node scripts/sitemap.mjs"
+    "generate-sitemap": "node scripts/sitemap.mjs",
+    "prebuild": "npm run generate-sitemap"
   },
   "dependencies": {
     "@vercel/analytics": "^1.5.0",
