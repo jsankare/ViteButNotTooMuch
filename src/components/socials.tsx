@@ -4,7 +4,7 @@ import { Socials } from "@/lib/socials";
 
 export default function SocialsSection() {
     return (
-        <section className="flex flex-col items-center justify-center min-h-[20vh] px-4">
+        <section className="flex flex-col items-center justify-center min-h-[20vh] px-4 mt-auto">
             <h2 className="text-3xl font-semibold mb-4 text-neutral-900 dark:text-neutral-100">Join us</h2>
             <div className="flex flex-wrap justify-center gap-6">
                 {Socials.map((social) => (

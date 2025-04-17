@@ -58,7 +58,7 @@ export default function BlogPost({ params }: Props) {
 
         <div className="prose dark:prose-invert max-w-none">
           {post.content.split("\n").map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
+              <div key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
           ))}
         </div>
       </article>
