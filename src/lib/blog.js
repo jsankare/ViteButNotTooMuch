@@ -1,140 +1,161 @@
 export const blogPosts = [
   {
     id: "1",
-    title: "ViteButNotTooMuch: The Revolutionary Approach to Personal Growth",
-    slug: "vitebutnottoomuch-revolutionary-approach",
-    summary: "Discover how ViteButNotTooMuch methodology transforms personal development through sustainable, measured progress.",
-    metaTitle: "ViteButNotTooMuch | Innovative Personal Growth Method 2024",
-    metaDescription: "Learn about ViteButNotTooMuch, the groundbreaking approach to personal development that combines efficiency with sustainability. Start your journey today.",
-    keywords: ["ViteButNotTooMuch", "personal growth", "sustainable development", "efficient progress"],
+    title: "ViteButNotTooMuch : une approche révolutionnaire du développement personnel",
+    slug: "vitebutnottoomuch-approche-revolutionnaire",
+    summary: "Découvrez comment la méthode ViteButNotTooMuch transforme le développement personnel grâce à une progression durable et mesurée.",
+    metaTitle: "ViteButNotTooMuch | Méthode innovante de développement personnel 2024",
+    metaDescription: "Explorez ViteButNotTooMuch, l'approche novatrice qui allie efficacité et durabilité dans le développement personnel. Commencez votre transformation dès aujourd’hui.",
+    keywords: ["ViteButNotTooMuch", "croissance personnelle", "progrès durable", "développement équilibré"],
     content: `
-      ViteButNotTooMuch represents a paradigm shift in personal development. Unlike traditional methods that push for rapid transformation, this approach emphasizes sustainable progress.
+<h1>ViteButNotTooMuch : une nouvelle vision du développement personnel</h1>
+<p>Contrairement aux méthodes traditionnelles qui misent sur des changements rapides, ViteButNotTooMuch propose une approche progressive et équilibrée.</p>
 
-      Core Principles of ViteButNotTooMuch:
-      1. Sustainable Pace
-      2. Measured Progress
-      3. Balanced Growth
-      4. Consistent Evolution
+<h2>Les piliers de la méthode ViteButNotTooMuch</h2>
+<ul>
+  <li>Un rythme durable</li>
+  <li>Une progression mesurée</li>
+  <li>Une croissance équilibrée</li>
+  <li>Une évolution continue</li>
+</ul>
 
-      Why ViteButNotTooMuch Works:
-      - Prevents burnout through measured progress
-      - Creates lasting change through sustainable habits
-      - Builds confidence through consistent wins
-      - Maintains motivation through achievable goals
+<h2>Pourquoi cette approche fonctionne</h2>
+<ul>
+  <li>Elle évite l’épuisement grâce à une cadence mesurée</li>
+  <li>Elle favorise un changement durable par l’intégration d’habitudes stables</li>
+  <li>Elle construit la confiance via des victoires régulières</li>
+  <li>Elle maintient la motivation par des objectifs accessibles</li>
+</ul>
 
-      The ViteButNotTooMuch method isn't about racing to the finish line—it's about enjoying the journey while ensuring consistent progress.
+<p>ViteButNotTooMuch ne cherche pas la performance immédiate, mais un cheminement constant et serein vers une meilleure version de soi.</p>
+
+<p>👉 <a href="/blog/mastering-vitebutnottoomuch-daily-guide">Apprenez à l'appliquer au quotidien</a></p>
+<p>👉 <a href="/blog/vitebutnottoomuch-vs-traditional-methods">Comparez-la avec les approches classiques</a></p>
     `,
     date: "2024-04-15",
     relatedPosts: ["2", "3", "4"],
   },
   {
     id: "2",
-    title: "Mastering ViteButNotTooMuch: Daily Implementation Guide",
+    title: "Maîtriser ViteButNotTooMuch : guide pratique pour le quotidien",
     slug: "mastering-vitebutnottoomuch-daily-guide",
-    summary: "A comprehensive guide to implementing ViteButNotTooMuch principles in your daily routine.",
-    metaTitle: "ViteButNotTooMuch Daily Implementation Guide | Practical Tips",
-    metaDescription: "Step-by-step guide to incorporating ViteButNotTooMuch principles into your daily life. Learn practical techniques for balanced personal growth.",
-    keywords: ["ViteButNotTooMuch guide", "daily implementation", "practical tips", "balanced growth"],
+    summary: "Un guide détaillé pour intégrer les principes de ViteButNotTooMuch dans votre routine journalière.",
+    metaTitle: "ViteButNotTooMuch au quotidien | Conseils pratiques",
+    metaDescription: "Apprenez à appliquer ViteButNotTooMuch chaque jour. Découvrez des techniques concrètes pour une croissance personnelle équilibrée.",
+    keywords: ["ViteButNotTooMuch guide", "application quotidienne", "croissance équilibrée"],
     content: `
-      Transform your daily routine with ViteButNotTooMuch principles. This comprehensive guide shows you how to implement sustainable growth practices.
+<h1>Intégrer ViteButNotTooMuch dans sa vie de tous les jours</h1>
 
-      Morning Routine:
-      - 5-minute mindfulness practice
-      - 3-minute goal setting
-      - 2-minute progress review
+<h2>Routine matinale</h2>
+<ul>
+  <li>5 minutes de pleine conscience</li>
+  <li>3 minutes pour définir vos objectifs</li>
+  <li>2 minutes de rétrospective</li>
+</ul>
 
-      Throughout the Day:
-      - Micro-learning sessions
-      - Progress checkpoints
-      - Mindful breaks
+<h2>Dans la journée</h2>
+<ul>
+  <li>Mini-sessions d’apprentissage</li>
+  <li>Points de contrôle rapides</li>
+  <li>Pauses conscientes</li>
+</ul>
 
-      Evening Review:
-      - Celebration of small wins
-      - Adjustment planning
-      - Next day preparation
+<h2>En soirée</h2>
+<ul>
+  <li>Célébration des petites victoires</li>
+  <li>Ajustement des priorités</li>
+  <li>Préparation du lendemain</li>
+</ul>
 
-      Remember: ViteButNotTooMuch is about progress, not perfection.
+<p>✅ <a href="/blog/vitebutnottoomuch-success-stories">Lisez les témoignages de ceux qui l'ont adopté</a></p>
+<p>✅ <a href="/blog/science-behind-vitebutnottoomuch">Comprenez la science derrière cette méthode</a></p>
     `,
     date: "2024-04-14",
     relatedPosts: ["1", "3", "5"],
   },
   {
     id: "3",
-    title: "ViteButNotTooMuch vs Traditional Methods: A Comparative Analysis",
+    title: "ViteButNotTooMuch vs Méthodes Traditionnelles : Analyse Comparée",
     slug: "vitebutnottoomuch-vs-traditional-methods",
-    summary: "Compare the innovative ViteButNotTooMuch approach with conventional personal development methods.",
-    metaTitle: "ViteButNotTooMuch vs Traditional Methods | Which Works Better?",
-    metaDescription: "Detailed comparison between ViteButNotTooMuch and traditional personal development approaches. Discover why balanced progress beats rapid transformation.",
-    keywords: ["ViteButNotTooMuch comparison", "traditional methods", "personal development comparison"],
+    summary: "Une comparaison entre l’approche ViteButNotTooMuch et les méthodes classiques de développement personnel.",
+    metaTitle: "ViteButNotTooMuch vs Méthodes Classiques | Lequel est le plus efficace ?",
+    metaDescription: "Découvrez pourquoi ViteButNotTooMuch propose une alternative plus durable que les approches intensives traditionnelles.",
+    keywords: ["ViteButNotTooMuch comparatif", "méthodes classiques", "développement personnel"],
     content: `
-      Understanding the key differences between ViteButNotTooMuch and traditional approaches to personal growth.
+<h1>Comparaison : ViteButNotTooMuch vs Développement Intensif</h1>
 
-      ViteButNotTooMuch Approach:
-      ✓ Sustainable progress
-      ✓ Lower burnout risk
-      ✓ Higher completion rate
-      ✓ Better long-term results
+<h2>Forces de ViteButNotTooMuch</h2>
+<ul>
+  <li>Progrès constant et durable</li>
+  <li>Moins de risque de décrochage</li>
+  <li>Meilleure rétention à long terme</li>
+</ul>
 
-      Traditional Methods:
-      × Intense pressure
-      × Higher dropout rates
-      × Burnout risk
-      × Temporary results
+<h2>Limites des méthodes classiques</h2>
+<ul>
+  <li>Pression intense</li>
+  <li>Taux d’abandon élevé</li>
+  <li>Résultats temporaires</li>
+</ul>
 
-      Scientific Evidence:
-      Studies show that gradual, consistent progress (ViteButNotTooMuch method) leads to more sustainable results than intensive programs.
+<p>🔬 Études récentes montrent que le changement progressif, comme dans ViteButNotTooMuch, est plus efficace à long terme.</p>
+<p>👉 <a href="/blog/science-behind-vitebutnottoomuch">Voir les preuves scientifiques</a></p>
     `,
     date: "2024-04-13",
     relatedPosts: ["1", "2", "4"],
   },
   {
     id: "4",
-    title: "ViteButNotTooMuch Success Stories: Real People, Real Results",
+    title: "Histoires de Réussite avec ViteButNotTooMuch : Témoignages Inspirants",
     slug: "vitebutnottoomuch-success-stories",
-    summary: "Inspiring success stories from people who have transformed their lives using the ViteButNotTooMuch method.",
-    metaTitle: "ViteButNotTooMuch Success Stories | Real Transformations",
-    metaDescription: "Read inspiring success stories from people who achieved remarkable results with ViteButNotTooMuch. Real testimonials and proven results.",
-    keywords: ["ViteButNotTooMuch success", "testimonials", "real results", "transformation stories"],
+    summary: "Des histoires vraies de personnes ayant transformé leur vie grâce à ViteButNotTooMuch.",
+    metaTitle: "Témoignages ViteButNotTooMuch | Transformations Réelles",
+    metaDescription: "Lisez des témoignages inspirants de ceux qui ont utilisé ViteButNotTooMuch pour changer leur vie. Résultats prouvés et vécus.",
+    keywords: ["ViteButNotTooMuch succès", "témoignages", "changements réels"],
     content: `
-      Real stories from people who have experienced the power of ViteButNotTooMuch in their lives.
+<h1>Ils ont choisi ViteButNotTooMuch, voici leur parcours</h1>
 
-      Sarah's Journey:
-      "Using ViteButNotTooMuch, I finally broke free from the cycle of burnout and found sustainable progress."
+<h2>Le parcours de Sarah</h2>
+<p>"Avec ViteButNotTooMuch, j’ai enfin trouvé un rythme qui me correspond. Je progresse sans pression et je me sens mieux."</p>
 
-      Mike's Transformation:
-      "The ViteButNotTooMuch approach helped me build lasting habits without overwhelming myself."
+<h2>La transformation de Mike</h2>
+<p>"J’ai pu construire des habitudes durables sans me sentir submergé."</p>
 
-      Team Success:
-      How a startup implemented ViteButNotTooMuch principles to improve productivity while reducing stress.
+<h2>Un succès d’équipe</h2>
+<p>Une startup a boosté sa productivité et réduit le stress en adoptant les principes de ViteButNotTooMuch.</p>
+
+<p>🔍 <a href="/blog/mastering-vitebutnottoomuch-daily-guide">Découvrez leur routine</a></p>
     `,
     date: "2024-04-12",
     relatedPosts: ["1", "3", "5"],
   },
   {
     id: "5",
-    title: "The Science Behind ViteButNotTooMuch: Research and Evidence",
+    title: "La Science de ViteButNotTooMuch : Preuves et Recherches",
     slug: "science-behind-vitebutnottoomuch",
-    summary: "Explore the scientific principles and research supporting the ViteButNotTooMuch methodology.",
-    metaTitle: "ViteButNotTooMuch Scientific Research | Evidence-Based Method",
-    metaDescription: "Discover the scientific research and evidence supporting ViteButNotTooMuch methodology. Learn why this approach is backed by science.",
-    keywords: ["ViteButNotTooMuch science", "research evidence", "scientific method", "psychology"],
+    summary: "Analyse des bases scientifiques derrière la méthode ViteButNotTooMuch.",
+    metaTitle: "ViteButNotTooMuch et la Science | Approche validée",
+    metaDescription: "Études scientifiques et principes psychologiques qui justifient l’efficacité de ViteButNotTooMuch.",
+    keywords: ["ViteButNotTooMuch science", "recherche", "psychologie", "méthode validée"],
     content: `
-      Diving deep into the scientific foundations of ViteButNotTooMuch and why it works.
+<h1>Les fondations scientifiques de ViteButNotTooMuch</h1>
 
-      Research Areas:
-      1. Behavioral Psychology
-      2. Habit Formation
-      3. Neuroplasticity
-      4. Performance Psychology
+<h2>Domaines étudiés</h2>
+<ul>
+  <li>Psychologie comportementale</li>
+  <li>Formation des habitudes</li>
+  <li>Neuroplasticité</li>
+  <li>Psychologie de la performance</li>
+</ul>
 
-      Key Findings:
-      - Gradual progress activates sustainable neural pathways
-      - Consistent small wins boost motivation
-      - Balanced approach reduces cortisol levels
-      - Measured progress enhances long-term retention
+<h2>Résultats clés</h2>
+<ul>
+  <li>Des progrès réguliers activent des circuits neuronaux durables</li>
+  <li>Les petites victoires stimulent la motivation</li>
+  <li>Moins de stress, meilleure rétention</li>
+</ul>
 
-      Scientific Validation:
-      Multiple studies confirm the effectiveness of the ViteButNotTooMuch approach.
+<p>✅ <a href="/blog/vitebutnottoomuch-vs-traditional-methods">Comparez avec les méthodes classiques</a></p>
     `,
     date: "2024-04-11",
     relatedPosts: ["1", "2", "3"],
@@ -149,23 +170,20 @@ export function getPostBySlug(slug) {
   return blogPosts.find((post) => post.slug === slug);
 }
 
-// Nouvelle fonction pour obtenir les articles liés
 export function getRelatedPosts(postId) {
   const post = blogPosts.find((p) => p.id === postId);
   if (!post) return [];
   return blogPosts.filter((p) => post.relatedPosts.includes(p.id));
 }
 
-// Nouvelle fonction pour obtenir les articles par mot-clé
 export function getPostsByKeyword(keyword) {
-  return blogPosts.filter((post) => 
-    post.keywords.some(k => k.toLowerCase().includes(keyword.toLowerCase()))
+  return blogPosts.filter((post) =>
+      post.keywords.some((k) => k.toLowerCase().includes(keyword.toLowerCase()))
   );
 }
 
-// Nouvelle fonction pour obtenir les articles les plus récents
 export function getRecentPosts(limit = 3) {
   return [...blogPosts]
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, limit);
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, limit);
 }
