@@ -46,8 +46,6 @@ export default function BlogPost({ params }: Props) {
 
   return (
       <article className="max-w-2xl mx-auto">
-        {/* Title */}
-        {!post.content.includes("<h1>") && <h1>{post.title}</h1>}
 
         {/* Date */}
         <time className="block text-gray-600 dark:text-gray-400 mb-8">
@@ -57,6 +55,9 @@ export default function BlogPost({ params }: Props) {
             day: "numeric",
           })}
         </time>
+
+        {/* Title */}
+        {!post.content.includes("<h1>") && <h1>{post.title}</h1>}
 
         {/* Content */}
         <div className="prose dark:prose-invert max-w-none">
