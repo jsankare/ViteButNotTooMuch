@@ -1,10 +1,10 @@
-export type Challenge = {
+export interface Challenge {
   id: string;
   title: string;
   description: string;
   category: "Mind" | "Wellness" | "Learning";
   duration: 5 | 10 | 15;
-};
+}
 
 export const challenges: Challenge[] = [
   {
@@ -28,7 +28,6 @@ export const challenges: Challenge[] = [
     category: "Learning",
     duration: 5,
   },
-  // Add more challenges here
 ];
 
 export function getRandomChallenge(): Challenge {
@@ -36,12 +35,12 @@ export function getRandomChallenge(): Challenge {
   return challenges[randomIndex];
 }
 
-export function getChallengesByCategory(category?: Challenge["category"]) {
+export function getChallengesByCategory(category?: Challenge["category"]): Challenge[] {
   if (!category) return challenges;
   return challenges.filter((challenge) => challenge.category === category);
 }
 
-export function getChallengesByDuration(duration?: Challenge["duration"]) {
+export function getChallengesByDuration(duration?: Challenge["duration"]): Challenge[] {
   if (!duration) return challenges;
   return challenges.filter((challenge) => challenge.duration === duration);
 }
