@@ -6,9 +6,7 @@ export const blogPosts = [
     summary: "Découvrez comment la méthode ViteButNotTooMuch transforme le développement personnel grâce à une progression durable et mesurée.",
     metaTitle: "ViteButNotTooMuch | Méthode innovante de développement personnel 2024",
     metaDescription: "Explorez ViteButNotTooMuch, l'approche novatrice qui allie efficacité et durabilité dans le développement personnel. Commencez votre transformation dès aujourd’hui.",
-    keywords: ["ViteButNotTooMuch", "croissance personnelle", "progrès durable", "développement équilibré"],
     content: `
-<h1>ViteButNotTooMuch : une nouvelle vision du développement personnel</h1>
 <p>Contrairement aux méthodes traditionnelles qui misent sur des changements rapides, ViteButNotTooMuch propose une approche progressive et équilibrée.</p>
 
 <h2>Les piliers de la méthode ViteButNotTooMuch</h2>
@@ -28,9 +26,6 @@ export const blogPosts = [
 </ul>
 
 <p>ViteButNotTooMuch ne cherche pas la performance immédiate, mais un cheminement constant et serein vers une meilleure version de soi.</p>
-
-<p>👉 <a href="/blog/mastering-vitebutnottoomuch-daily-guide">Apprenez à l'appliquer au quotidien</a></p>
-<p>👉 <a href="/blog/vitebutnottoomuch-vs-traditional-methods">Comparez-la avec les approches classiques</a></p>
     `,
     date: "2024-04-15",
     relatedPosts: ["2", "3", "4"],
@@ -42,10 +37,7 @@ export const blogPosts = [
     summary: "Un guide détaillé pour intégrer les principes de ViteButNotTooMuch dans votre routine journalière.",
     metaTitle: "ViteButNotTooMuch au quotidien | Conseils pratiques",
     metaDescription: "Apprenez à appliquer ViteButNotTooMuch chaque jour. Découvrez des techniques concrètes pour une croissance personnelle équilibrée.",
-    keywords: ["ViteButNotTooMuch guide", "application quotidienne", "croissance équilibrée"],
     content: `
-<h1>Intégrer ViteButNotTooMuch dans sa vie de tous les jours</h1>
-
 <h2>Routine matinale</h2>
 <ul>
   <li>5 minutes de pleine conscience</li>
@@ -66,9 +58,6 @@ export const blogPosts = [
   <li>Ajustement des priorités</li>
   <li>Préparation du lendemain</li>
 </ul>
-
-<p>✅ <a href="/blog/vitebutnottoomuch-success-stories">Lisez les témoignages de ceux qui l'ont adopté</a></p>
-<p>✅ <a href="/blog/science-behind-vitebutnottoomuch">Comprenez la science derrière cette méthode</a></p>
     `,
     date: "2024-04-14",
     relatedPosts: ["1", "3", "5"],
@@ -80,10 +69,7 @@ export const blogPosts = [
     summary: "Une comparaison entre l’approche ViteButNotTooMuch et les méthodes classiques de développement personnel.",
     metaTitle: "ViteButNotTooMuch vs Méthodes Classiques | Lequel est le plus efficace ?",
     metaDescription: "Découvrez pourquoi ViteButNotTooMuch propose une alternative plus durable que les approches intensives traditionnelles.",
-    keywords: ["ViteButNotTooMuch comparatif", "méthodes classiques", "développement personnel"],
     content: `
-<h1>Comparaison : ViteButNotTooMuch vs Développement Intensif</h1>
-
 <h2>Forces de ViteButNotTooMuch</h2>
 <ul>
   <li>Progrès constant et durable</li>
@@ -97,9 +83,6 @@ export const blogPosts = [
   <li>Taux d’abandon élevé</li>
   <li>Résultats temporaires</li>
 </ul>
-
-<p>🔬 Études récentes montrent que le changement progressif, comme dans ViteButNotTooMuch, est plus efficace à long terme.</p>
-<p>👉 <a href="/blog/science-behind-vitebutnottoomuch">Voir les preuves scientifiques</a></p>
     `,
     date: "2024-04-13",
     relatedPosts: ["1", "2", "4"],
@@ -111,10 +94,7 @@ export const blogPosts = [
     summary: "Des histoires vraies de personnes ayant transformé leur vie grâce à ViteButNotTooMuch.",
     metaTitle: "Témoignages ViteButNotTooMuch | Transformations Réelles",
     metaDescription: "Lisez des témoignages inspirants de ceux qui ont utilisé ViteButNotTooMuch pour changer leur vie. Résultats prouvés et vécus.",
-    keywords: ["ViteButNotTooMuch succès", "témoignages", "changements réels"],
     content: `
-<h1>Ils ont choisi ViteButNotTooMuch, voici leur parcours</h1>
-
 <h2>Le parcours de Sarah</h2>
 <p>"Avec ViteButNotTooMuch, j’ai enfin trouvé un rythme qui me correspond. Je progresse sans pression et je me sens mieux."</p>
 
@@ -123,8 +103,6 @@ export const blogPosts = [
 
 <h2>Un succès d’équipe</h2>
 <p>Une startup a boosté sa productivité et réduit le stress en adoptant les principes de ViteButNotTooMuch.</p>
-
-<p>🔍 <a href="/blog/mastering-vitebutnottoomuch-daily-guide">Découvrez leur routine</a></p>
     `,
     date: "2024-04-12",
     relatedPosts: ["1", "3", "5"],
@@ -136,10 +114,7 @@ export const blogPosts = [
     summary: "Analyse des bases scientifiques derrière la méthode ViteButNotTooMuch.",
     metaTitle: "ViteButNotTooMuch et la Science | Approche validée",
     metaDescription: "Études scientifiques et principes psychologiques qui justifient l’efficacité de ViteButNotTooMuch.",
-    keywords: ["ViteButNotTooMuch science", "recherche", "psychologie", "méthode validée"],
     content: `
-<h1>Les fondations scientifiques de ViteButNotTooMuch</h1>
-
 <h2>Domaines étudiés</h2>
 <ul>
   <li>Psychologie comportementale</li>
@@ -154,8 +129,6 @@ export const blogPosts = [
   <li>Les petites victoires stimulent la motivation</li>
   <li>Moins de stress, meilleure rétention</li>
 </ul>
-
-<p>✅ <a href="/blog/vitebutnottoomuch-vs-traditional-methods">Comparez avec les méthodes classiques</a></p>
     `,
     date: "2024-04-11",
     relatedPosts: ["1", "2", "3"],

@@ -20,7 +20,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
     title: {
         default: "ViteButNotTooMuch - Daily Micro-Challenges",
-        template: "%s | ViteButNotTooMuch"
+        template: "%s"
     },
     description: "Small daily actions lead to real progress. Move fast, but don't burn out.. ViteButNotTooMuch",
     openGraph: {

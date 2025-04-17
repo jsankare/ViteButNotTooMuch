@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { getPostBySlug, getAllPosts } from "@/lib/blog";
+import {getPostBySlug, getAllPosts, getRelatedPosts} from "@/lib/blog";
 import { notFound } from "next/navigation";
 
 interface Props {
@@ -13,16 +13,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!post) {
     return {
-      title: 'Post Not Found',
+      title: 'Article introuvable',
     };
   }
 
   return {
-    title: post.title,
-    description: post.summary,
+    title: post.metaTitle || post.title,
+    description: post.metaDescription || post.summary,
     openGraph: {
-      title: post.title,
-      description: post.summary,
+      title: post.metaTitle || post.title,
+      description: post.metaDescription || post.summary,
       type: 'article',
       publishedTime: post.date,
       url: `https://vite-but-not-too-much.vercel.app/blog/${post.slug}`,
@@ -40,14 +40,16 @@ export async function generateStaticParams() {
 export default function BlogPost({ params }: Props) {
   const post = getPostBySlug(params.slug);
 
-  if (!post) {
-    notFound();
-  }
+  if (!post) notFound();
+
+  const related = getRelatedPosts(post.id);
 
   return (
       <article className="max-w-2xl mx-auto">
-        <h1>{post.title}</h1>
+        {/* Title */}
+        {!post.content.includes("<h1>") && <h1>{post.title}</h1>}
 
+        {/* Date */}
         <time className="block text-gray-600 dark:text-gray-400 mb-8">
           {new Date(post.date).toLocaleDateString("fr", {
             year: "numeric",
@@ -56,11 +58,28 @@ export default function BlogPost({ params }: Props) {
           })}
         </time>
 
+        {/* Content */}
         <div className="prose dark:prose-invert max-w-none">
           {post.content.split("\n").map((paragraph, index) => (
               <div key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
           ))}
         </div>
+
+        {/* Related Posts */}
+        {related.length > 0 && (
+            <section className="mt-12">
+              <h2 className="text-xl font-bold mb-4">Articles associés</h2>
+              <ul className="list-disc list-inside space-y-2">
+                {related.map((rel) => (
+                    <li key={rel.id}>
+                      <a href={`/blog/${rel.slug}`} className="text-blue-600 hover:underline">
+                        {rel.title}
+                      </a>
+                    </li>
+                ))}
+              </ul>
+            </section>
+        )}
       </article>
   );
 }
