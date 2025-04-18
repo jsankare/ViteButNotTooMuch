@@ -292,6 +292,486 @@ export const blogPosts = [
   `,
   date: "2024-04-06",
   relatedPosts: ["2", "7", "9"],
+},
+{
+  id: "11",
+  title: "ViteButNotTooMuch dans le Sport : Performance Progressive",
+  slug: "vitebutnottoomuch-sport-performance",
+  summary: "Application des principes ViteButNotTooMuch pour une progression sportive intelligente et durable.",
+  metaTitle: "ViteButNotTooMuch Sport | Progression Athletic",
+  metaDescription: "Optimisez votre entraînement sportif avec ViteButNotTooMuch. Découvrez comment progresser sans risque de blessure.",
+  content: `
+    <h2>Principes d'entraînement</h2>
+    <ul>
+      <li>Progression graduelle des charges</li>
+      <li>Récupération optimisée</li>
+      <li>Périodisation intelligente</li>
+    </ul>
+
+    <h2>Application pratique</h2>
+    <ul>
+      <li>Plans d'entraînement adaptés</li>
+      <li>Suivi de la fatigue</li>
+      <li>Ajustements personnalisés</li>
+    </ul>
+
+    <h2>Résultats durables</h2>
+    <ul>
+      <li>Moins de blessures</li>
+      <li>Progression constante</li>
+      <li>Motivation maintenue</li>
+    </ul>
+  `,
+  date: "2024-04-05",
+  relatedPosts: ["8", "4", "2"],
+},
+{
+  id: "12",
+  title: "ViteButNotTooMuch en Famille : Harmonie et Développement",
+  slug: "vitebutnottoomuch-famille-harmonie",
+  summary: "Comment appliquer ViteButNotTooMuch pour créer une dynamique familiale positive et épanouissante.",
+  metaTitle: "ViteButNotTooMuch Famille | Équilibre Familial",
+  metaDescription: "Créez une vie familiale équilibrée avec ViteButNotTooMuch. Des solutions pratiques pour toute la famille.",
+  content: `
+    <h2>Organisation familiale</h2>
+    <ul>
+      <li>Routines adaptées</li>
+      <li>Communication positive</li>
+      <li>Activités partagées</li>
+    </ul>
+
+    <h2>Développement individuel</h2>
+    <ul>
+      <li>Respect des rythmes</li>
+      <li>Soutien mutuel</li>
+      <li>Objectifs communs</li>
+    </ul>
+
+    <h2>Résolution de conflits</h2>
+    <ul>
+      <li>Approche progressive</li>
+      <li>Écoute active</li>
+      <li>Solutions constructives</li>
+    </ul>
+  `,
+  date: "2024-04-04",
+  relatedPosts: ["9", "8", "4"],
+},
+{
+  id: "13",
+  title: "ViteButNotTooMuch au Travail : Productivité Sereine",
+  slug: "vitebutnottoomuch-travail-productivite",
+  summary: "Maximisez votre efficacité professionnelle tout en préservant votre équilibre avec ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Travail | Productivité Zen",
+  metaDescription: "Découvrez comment être plus productif sans stress avec ViteButNotTooMuch. Méthodes testées en entreprise.",
+  content: `
+    <h2>Organisation du travail</h2>
+    <ul>
+      <li>Planification intelligente</li>
+      <li>Gestion de l'énergie</li>
+      <li>Priorisation efficace</li>
+    </ul>
+
+    <h2>Techniques pratiques</h2>
+    <ul>
+      <li>Méthode des blocs de temps</li>
+      <li>Pauses stratégiques</li>
+      <li>Rituels d'efficacité</li>
+    </ul>
+
+    <h2>Équilibre vie pro-perso</h2>
+    <ul>
+      <li>Limites saines</li>
+      <li>Déconnexion qualitative</li>
+      <li>Transitions fluides</li>
+    </ul>
+  `,
+  date: "2024-04-03",
+  relatedPosts: ["6", "2", "10"],
+},
+{
+  id: "14",
+  title: "ViteButNotTooMuch et Créativité : Libérer son Potentiel",
+  slug: "vitebutnottoomuch-creativite-potentiel",
+  summary: "Développez votre créativité de manière progressive et structurée avec ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Créativité | Expression Artistique",
+  metaDescription: "Libérez votre créativité avec ViteButNotTooMuch. Une approche structurée pour développer vos talents artistiques.",
+  content: `
+    <h2>Stimulation créative</h2>
+    <ul>
+      <li>Exercices progressifs</li>
+      <li>Rituels d'inspiration</li>
+      <li>Exploration guidée</li>
+    </ul>
+
+    <h2>Pratiques quotidiennes</h2>
+    <ul>
+      <li>Mini-sessions créatives</li>
+      <li>Expérimentation ludique</li>
+      <li>Documentation des idées</li>
+    </ul>
+
+    <h2>Développement artistique</h2>
+    <ul>
+      <li>Progression technique</li>
+      <li>Expression personnelle</li>
+      <li>Projets évolutifs</li>
+    </ul>
+  `,
+  date: "2024-04-02",
+  relatedPosts: ["7", "10", "3"],
+},
+{
+  id: "15",
+  title: "ViteButNotTooMuch et Méditation : Pleine Conscience Progressive",
+  slug: "vitebutnottoomuch-meditation-conscience",
+  summary: "Intégrez la méditation dans votre quotidien grâce à l'approche progressive ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Méditation | Pratique Zen",
+  metaDescription: "Découvrez comment méditer efficacement avec ViteButNotTooMuch. Une approche accessible pour tous les niveaux.",
+  content: `
+    <h2>Débuter en méditation</h2>
+    <ul>
+      <li>Sessions de 2 minutes</li>
+      <li>Ancrage corporel</li>
+      <li>Respiration consciente</li>
+    </ul>
+
+    <h2>Progression méditative</h2>
+    <ul>
+      <li>Augmentation graduelle</li>
+      <li>Variété des pratiques</li>
+      <li>Intégration quotidienne</li>
+    </ul>
+
+    <h2>Bienfaits observés</h2>
+    <ul>
+      <li>Calme mental</li>
+      <li>Présence accrue</li>
+      <li>Gestion du stress</li>
+    </ul>
+  `,
+  date: "2024-04-01",
+  relatedPosts: ["8", "4", "12"],
+},
+{
+  id: "16",
+  title: "ViteButNotTooMuch pour les Étudiants : Réussir Sans Stress",
+  slug: "vitebutnottoomuch-etudiants-reussite",
+  summary: "Guide complet pour les étudiants souhaitant optimiser leurs études avec la méthode ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Études | Réussite Académique",
+  metaDescription: "Optimisez vos études avec ViteButNotTooMuch. Méthodes efficaces pour réussir sereinement vos examens.",
+  content: `
+    <h2>Stratégies d'étude</h2>
+    <ul>
+      <li>Planning adaptatif</li>
+      <li>Révisions espacées</li>
+      <li>Mémorisation active</li>
+    </ul>
+
+    <h2>Gestion du temps</h2>
+    <ul>
+      <li>Sessions courtes efficaces</li>
+      <li>Pauses optimisées</li>
+      <li>Équilibre études-vie personnelle</li>
+    </ul>
+
+    <h2>Préparation aux examens</h2>
+    <ul>
+      <li>Révisions progressives</li>
+      <li>Gestion du stress</li>
+      <li>Maintien de l'énergie</li>
+    </ul>
+  `,
+  date: "2024-03-31",
+  relatedPosts: ["7", "9", "13"],
+},
+{
+  id: "17",
+  title: "ViteButNotTooMuch et Sommeil : Optimiser son Repos",
+  slug: "vitebutnottoomuch-sommeil-optimisation",
+  summary: "Améliorez la qualité de votre sommeil grâce aux principes ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Sommeil | Repos Optimal",
+  metaDescription: "Découvrez comment mieux dormir avec ViteButNotTooMuch. Des solutions concrètes pour un sommeil réparateur.",
+  content: `
+    <h2>Routine du soir</h2>
+    <ul>
+      <li>Rituel de détente</li>
+      <li>Préparation mentale</li>
+      <li>Environnement optimal</li>
+    </ul>
+
+    <h2>Habitudes favorables</h2>
+    <ul>
+      <li>Régularité du coucher</li>
+      <li>Gestion de la lumière</li>
+      <li>Alimentation adaptée</li>
+    </ul>
+
+    <h2>Qualité du sommeil</h2>
+    <ul>
+      <li>Cycles naturels</li>
+      <li>Réveil énergique</li>
+      <li>Récupération efficace</li>
+    </ul>
+  `,
+  date: "2024-03-30",
+  relatedPosts: ["8", "15", "11"],
+},
+{
+  id: "18",
+  title: "ViteButNotTooMuch dans la Nature : Reconnexion Progressive",
+  slug: "vitebutnottoomuch-nature-reconnexion",
+  summary: "Comment utiliser ViteButNotTooMuch pour se reconnecter à la nature de manière significative.",
+  metaTitle: "ViteButNotTooMuch Nature | Connexion Environnementale",
+  metaDescription: "Retrouvez un lien authentique avec la nature grâce à ViteButNotTooMuch. Approche progressive et consciente.",
+  content: `
+    <h2>Pratiques quotidiennes</h2>
+    <ul>
+      <li>Micro-pauses vertes</li>
+      <li>Observation consciente</li>
+      <li>Activités extérieures</li>
+    </ul>
+
+    <h2>Connexion environnementale</h2>
+    <ul>
+      <li>Jardinage progressif</li>
+      <li>Randonnées adaptées</li>
+      <li>Écologie pratique</li>
+    </ul>
+
+    <h2>Bénéfices naturels</h2>
+    <ul>
+      <li>Réduction du stress</li>
+      <li>Bien-être accru</li>
+      <li>Conscience écologique</li>
+    </ul>
+  `,
+  date: "2024-03-29",
+  relatedPosts: ["8", "12", "15"],
+},
+{
+  id: "19",
+  title: "ViteButNotTooMuch et Relations : Liens Authentiques",
+  slug: "vitebutnottoomuch-relations-authentiques",
+  summary: "Développez des relations plus profondes et authentiques avec l'approche ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Relations | Connexions Profondes",
+  metaDescription: "Améliorez vos relations interpersonnelles avec ViteButNotTooMuch. Guide pour des connexions plus authentiques.",
+  content: `
+    <h2>Communication progressive</h2>
+    <ul>
+      <li>Écoute active</li>
+      <li>Expression authentique</li>
+      <li>Empathie cultivée</li>
+    </ul>
+
+    <h2>Construction des liens</h2>
+    <ul>
+      <li>Moments de qualité</li>
+      <li>Partage progressif</li>
+      <li>Respect des limites</li>
+    </ul>
+
+    <h2>Maintien relationnel</h2>
+    <ul>
+      <li>Attention régulière</li>
+      <li>Résolution constructive</li>
+      <li>Croissance commune</li>
+    </ul>
+  `,
+  date: "2024-03-28",
+  relatedPosts: ["12", "4", "15"],
+},
+{
+  id: "20",
+  title: "ViteButNotTooMuch et Finance : Gestion Sereine",
+  slug: "vitebutnottoomuch-finance-gestion",
+  summary: "Appliquez ViteButNotTooMuch à votre gestion financière pour plus de sérénité et d'efficacité.",
+  metaTitle: "ViteButNotTooMuch Finance | Gestion Financière",
+  metaDescription: "Gérez vos finances sereinement avec ViteButNotTooMuch. Stratégies progressives pour une santé financière durable.",
+  content: `
+    <h2>Fondamentaux financiers</h2>
+    <ul>
+      <li>Budget progressif</li>
+      <li>Épargne régulière</li>
+      <li>Investissement mesuré</li>
+    </ul>
+
+    <h2>Habitudes financières</h2>
+    <ul>
+      <li>Suivi quotidien</li>
+      <li>Décisions réfléchies</li>
+      <li>Ajustements réguliers</li>
+    </ul>
+
+    <h2>Objectifs durables</h2>
+    <ul>
+      <li>Planning à long terme</li>
+      <li>Sécurité financière</li>
+      <li>Équilibre vie-argent</li>
+    </ul>
+  `,
+  date: "2024-03-27",
+  relatedPosts: ["6", "13", "10"],
+},
+{
+  id: "21",
+  title: "ViteButNotTooMuch et Alimentation : Nutrition Consciente",
+  slug: "vitebutnottoomuch-alimentation-nutrition",
+  summary: "Transformez vos habitudes alimentaires durablement avec la méthode ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Nutrition | Alimentation Saine",
+  metaDescription: "Adoptez une alimentation équilibrée avec ViteButNotTooMuch. Changements progressifs pour une santé durable.",
+  content: `
+    <h2>Changements alimentaires</h2>
+    <ul>
+      <li>Transitions douces</li>
+      <li>Choix conscients</li>
+      <li>Plaisir préservé</li>
+    </ul>
+
+    <h2>Pratiques quotidiennes</h2>
+    <ul>
+      <li>Repas mindful</li>
+      <li>Portions adaptées</li>
+      <li>Hydratation régulière</li>
+    </ul>
+
+    <h2>Résultats durables</h2>
+    <ul>
+      <li>Énergie stable</li>
+      <li>Digestion améliorée</li>
+      <li>Relation saine à l'alimentation</li>
+    </ul>
+  `,
+  date: "2024-03-26",
+  relatedPosts: ["8", "11", "17"],
+},
+{
+  id: "22",
+  title: "ViteButNotTooMuch et Digital : Usage Équilibré",
+  slug: "vitebutnottoomuch-digital-equilibre",
+  summary: "Trouvez un équilibre numérique sain avec l'approche ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Digital | Équilibre Numérique",
+  metaDescription: "Maîtrisez votre usage du numérique avec ViteButNotTooMuch. Solutions pour une relation saine avec la technologie.",
+  content: `
+    <h2>Usage conscient</h2>
+    <ul>
+      <li>Temps d'écran contrôlé</li>
+      <li>Pauses numériques</li>
+      <li>Sélection des contenus</li>
+    </ul>
+
+    <h2>Pratiques saines</h2>
+    <ul>
+      <li>Notifications maîtrisées</li>
+      <li>Zones sans écran</li>
+      <li>Moments déconnectés</li>
+    </ul>
+
+    <h2>Bien-être digital</h2>
+    <ul>
+      <li>Ergonomie optimisée</li>
+      <li>Productivité préservée</li>
+      <li>Connexion sociale équilibrée</li>
+    </ul>
+  `,
+  date: "2024-03-25",
+  relatedPosts: ["13", "17", "19"],
+},
+{
+  id: "23",
+  title: "ViteButNotTooMuch et Créativité Culinaire",
+  slug: "vitebutnottoomuch-creativite-culinaire",
+  summary: "Développez vos talents culinaires progressivement avec la méthode ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Cuisine | Créativité Culinaire",
+  metaDescription: "Explorez la cuisine créative avec ViteButNotTooMuch. Progression culinaire adaptée à tous les niveaux.",
+  content: `
+    <h2>Bases culinaires</h2>
+    <ul>
+      <li>Techniques progressives</li>
+      <li>Ingrédients découverte</li>
+      <li>Recettes évolutives</li>
+    </ul>
+
+    <h2>Exploration gustative</h2>
+    <ul>
+      <li>Dégustations conscientes</li>
+      <li>Associations nouvelles</li>
+      <li>Créations personnelles</li>
+    </ul>
+
+    <h2>Organisation cuisine</h2>
+    <ul>
+      <li>Planification flexible</li>
+      <li>Gestion du temps</li>
+      <li>Plaisir culinaire</li>
+    </ul>
+  `,
+  date: "2024-03-24",
+  relatedPosts: ["21", "14", "12"],
+},
+{
+  id: "24",
+  title: "ViteButNotTooMuch et Jardinage : Croissance Naturelle",
+  slug: "vitebutnottoomuch-jardinage-nature",
+  summary: "Apprenez le jardinage sereinement avec l'approche progressive ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Jardinage | Connection Végétale",
+  metaDescription: "Découvrez le jardinage avec ViteButNotTooMuch. Une approche progressive pour cultiver son jardin.",
+  content: `
+    <h2>Débuter en jardinage</h2>
+    <ul>
+      <li>Projets simples</li>
+      <li>Plantes faciles</li>
+      <li>Observation patiente</li>
+    </ul>
+
+    <h2>Progression verte</h2>
+    <ul>
+      <li>Expansion graduelle</li>
+      <li>Techniques naturelles</li>
+      <li>Biodiversité croissante</li>
+    </ul>
+
+    <h2>Jardinage durable</h2>
+    <ul>
+      <li>Compostage progressif</li>
+      <li>Économie d'eau</li>
+      <li>Culture responsable</li>
+    </ul>
+  `,
+  date: "2024-03-23",
+  relatedPosts: ["18", "21", "8"],
+},
+{
+  id: "25",
+  title: "ViteButNotTooMuch et Art : Expression Progressive",
+  slug: "vitebutnottoomuch-art-expression",
+  summary: "Développez votre expression artistique pas à pas avec ViteButNotTooMuch.",
+  metaTitle: "ViteButNotTooMuch Art | Créativité Progressive",
+  metaDescription: "Explorez votre créativité artistique avec ViteButNotTooMuch. Une approche progressive de l'expression artistique.",
+  content: `
+    <h2>Fondamentaux artistiques</h2>
+    <ul>
+      <li>Techniques de base</li>
+      <li>Exploration des médiums</li>
+      <li>Pratique régulière</li>
+    </ul>
+
+    <h2>Développement créatif</h2>
+    <ul>
+      <li>Projets graduels</li>
+      <li>Expression personnelle</li>
+      <li>Expérimentation guidée</li>
+    </ul>
+
+    <h2>Évolution artistique</h2>
+    <ul>
+      <li>Style personnel</li>
+      <li>Portfolio progressif</li>
+      <li>Partage créatif</li>
+    </ul>
+  `,
+  date: "2024-03-22",
+  relatedPosts: ["14", "23", "19"],
 }
 ];
 
