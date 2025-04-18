@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     openGraph: {
         title: "ViteButNotTooMuch - Daily Micro-Challenges",
         description: "Small daily actions lead to real progress. Move fast, but don't burn out .. ViteButNotTooMuch",
-        url: "https://vite-but-not-too-much.vercel.app/",
+        url: "https://vitebutnottoomuch.vercel.app/",
         siteName: "ViteButNotTooMuch",
         images: [
             {
-                url: "https://vite-but-not-too-much.vercel.app/icons/vitebutnottoomuch.svg",
+                url: "https://vitebutnottoomuch.vercel.app/icons/vitebutnottoomuch.svg",
                 width: 1200,
                 height: 630,
                 alt: "ViteButNotTooMuch - Daily Micro-Challenges",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
         index: true,
         follow: true,
     },
-    metadataBase: new URL("https://vite-but-not-too-much.vercel.app/"),
+    metadataBase: new URL("https://vitebutnottoomuch.vercel.app/"),
 };
 
 export default function RootLayout({

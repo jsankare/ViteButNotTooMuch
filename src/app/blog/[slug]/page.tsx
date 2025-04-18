@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: post.metaDescription || post.summary,
       type: 'article',
       publishedTime: post.date,
-      url: `https://vite-but-not-too-much.vercel.app/blog/${post.slug}`,
+      url: `https://vitebutnottoomuch.vercel.app/blog/${post.slug}`,
     },
   };
 }

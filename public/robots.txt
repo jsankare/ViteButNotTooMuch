@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vite-but-not-too-much.vercel.app/sitemap.xml
+Sitemap: https://vitebutnottoomuch.vercel.app/sitemap.xml
