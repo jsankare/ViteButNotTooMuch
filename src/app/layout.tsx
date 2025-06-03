@@ -40,6 +40,14 @@ export const metadata: Metadata = {
         locale: "fr_FR",
         type: "website",
     },
+    twitter: {
+        card: "summary_large_image",
+        title: "ViteButNotTooMuch - Petits challenges journaliers",
+        description: "De petites actions quotidiennes mènent à de réels progrès. Avancez vite, mais sans vous brûler.. ViteButNotTooMuch",
+        images: ["/vitebutnottoomuch.png"],
+        creator: "@ViteButNotTM", 
+        site: "@ViteButNotTM", 
+    },
     robots: {
         index: true,
         follow: true,
