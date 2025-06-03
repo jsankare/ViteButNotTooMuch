@@ -43,7 +43,7 @@ function BrowseContent() {
 
   return (
       <div className="max-w-4xl mx-auto">
-        <h1>Browse Challenges</h1>
+        <h1>Parcourir les Challenges</h1>
 
         <div className="flex gap-4 mb-8">
           <select
@@ -51,10 +51,10 @@ function BrowseContent() {
               onChange={(e) => handleCategoryChange(e.target.value as Challenge["category"] || undefined)}
               value={selectedCategory || ""}
           >
-            <option value="">All Categories</option>
-            <option value="Mind">Mind</option>
-            <option value="Wellness">Wellness</option>
-            <option value="Learning">Learning</option>
+            <option value="">Toutes les catégories</option>
+            <option value="Esprit">Esprit</option>
+            <option value="Bien-être">Bien-être</option>
+            <option value="Apprentissage">Apprentissage</option>
           </select>
 
           <select
@@ -62,7 +62,7 @@ function BrowseContent() {
               onChange={(e) => handleDurationChange(Number(e.target.value) as Challenge["duration"] || undefined)}
               value={selectedDuration || ""}
           >
-            <option value="">All Durations</option>
+            <option value="">Toute durée</option>
             <option value="5">5 minutes</option>
             <option value="10">10 minutes</option>
             <option value="15">15 minutes</option>

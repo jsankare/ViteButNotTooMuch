@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[80vh] text-center">
       <h1 className="text-5xl font-bold mb-6">
-        Go fast... but not too much
+        Aller vite, mais pas trop vite #ViteButNotTooMuch
       </h1>
       <p className="text-xl mb-12 max-w-2xl">
-        Daily micro-challenges to help you improve slowly and consistently.
-        Small steps lead to big changes.
+        Des micro-défis quotidiens pour vous aider à progresser lentement et régulièrement.
+        Des petits pas mènent à de grands changements.
       </p>
       
       {currentChallenge ? (
@@ -35,7 +35,7 @@ export default function Home() {
         className="button-primary"
         onClick={handleGetChallenge}
       >
-        {currentChallenge ? "Get Another Challenge" : "Get Today's Challenge"}
+        {currentChallenge ? "Avoir un nouveau challenge" : "Challenge du jour"}
       </button>
     </div>
   );

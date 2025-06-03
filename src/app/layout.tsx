@@ -19,13 +19,13 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
     title: {
-        default: "ViteButNotTooMuch - Daily Micro-Challenges",
+        default: "ViteButNotTooMuch - Petits challenges journaliers",
         template: "%s"
     },
-    description: "Small daily actions lead to real progress. Move fast, but don't burn out.. ViteButNotTooMuch",
+    description: "De petites actions quotidiennes mènent à de réels progrès. Avancez vite, mais sans vous brûler.. ViteButNotTooMuch",
     openGraph: {
-        title: "ViteButNotTooMuch - Daily Micro-Challenges",
-        description: "Small daily actions lead to real progress. Move fast, but don't burn out .. ViteButNotTooMuch",
+        title: "ViteButNotTooMuch - Petits challenges journaliers",
+        description: "De petites actions quotidiennes mènent à de réels progrès. Avancez vite, mais sans vous brûler.. ViteButNotTooMuch",
         url: "https://vitebutnottoomuch.vercel.app/",
         siteName: "ViteButNotTooMuch",
         images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
                 url: "https://vitebutnottoomuch.vercel.app/icons/vitebutnottoomuch.svg",
                 width: 1200,
                 height: 630,
-                alt: "ViteButNotTooMuch - Daily Micro-Challenges",
+                alt: "ViteButNotTooMuch - Petits challenges journaliers",
             },
         ],
         locale: "fr_FR",
@@ -52,7 +52,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="fr" suppressHydrationWarning>
         <head>
             <Script id="matomo-tracking" strategy="afterInteractive">
                 {`

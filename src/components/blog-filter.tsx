@@ -12,7 +12,7 @@ export function BlogFilter({ searchTerm, onSearchChange, totalPosts }: BlogFilte
                     type="text"
                     value={searchTerm}
                     onChange={(e) => onSearchChange(e.target.value)}
-                    placeholder="Search articles..."
+                    placeholder="Chercher un article"
                     className="w-full px-4 py-2 rounded-full bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-primary-light dark:focus:ring-primary-dark"
                 />
                 <svg

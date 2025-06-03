@@ -20,8 +20,8 @@ export function Navigation() {
           </Link>
 
           <div className="flex items-center gap-6">
-            <Link href="/browse" className="no-underline hover:no-underline">Browse</Link>
-            <Link href="/about" className="no-underline hover:no-underline">About</Link>
+            <Link href="/browse" className="no-underline hover:no-underline">Challenges</Link>
+            <Link href="/about" className="no-underline hover:no-underline">A propos</Link>
             <Link href="/blog" className="no-underline hover:no-underline">Blog</Link>
             {mounted && (
                 <button
