@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const baseUrl = 'https://vitebutnottoomuch.vercel.app';
+const baseUrl = 'https://vitebutnottoomuch.studio';
 
 // Define your static routes
 const staticRoutes = [
