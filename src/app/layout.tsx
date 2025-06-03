@@ -77,7 +77,7 @@ export default function RootLayout({
             })();
           `}
             </Script>
-            <meta name="google-site-verification" content="YiN8rtHRjhhkVaLHJvWGgkQTlmKxy7LMT2CQuaEmp68" />
+            <meta name="google-site-verification" content="tgd3a3o1z_RXhp1Ln_7vnVDDmThsUfBnd_K08aP-Snw" />
         </head>
         <body className={`${roboto.variable} ${jetbrainsMono.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark`}>
         <ThemeProvider
