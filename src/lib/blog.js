@@ -27,7 +27,7 @@ export const blogPosts = [
 
 <p>ViteButNotTooMuch ne cherche pas la performance immédiate, mais un cheminement constant et serein vers une meilleure version de soi.</p>
     `,
-    date: "2024-04-15",
+    date: "2025-04-15",
     relatedPosts: ["2", "3", "4"],
   },
   {
@@ -59,7 +59,7 @@ export const blogPosts = [
   <li>Préparation du lendemain</li>
 </ul>
     `,
-    date: "2024-04-14",
+    date: "2025-04-14",
     relatedPosts: ["1", "3", "5"],
   },
   {
@@ -84,7 +84,7 @@ export const blogPosts = [
   <li>Résultats temporaires</li>
 </ul>
     `,
-    date: "2024-04-13",
+    date: "2025-04-13",
     relatedPosts: ["1", "2", "4"],
   },
   {
@@ -104,7 +104,7 @@ export const blogPosts = [
 <h2>Un succès d’équipe</h2>
 <p>Une startup a boosté sa productivité et réduit le stress en adoptant les principes de ViteButNotTooMuch.</p>
     `,
-    date: "2024-04-12",
+    date: "2025-04-12",
     relatedPosts: ["1", "3", "5"],
   },
   {
@@ -130,7 +130,7 @@ export const blogPosts = [
   <li>Moins de stress, meilleure rétention</li>
 </ul>
     `,
-    date: "2024-04-11",
+    date: "2025-04-11",
     relatedPosts: ["1", "2", "3"],
   },
   {
@@ -162,7 +162,7 @@ export const blogPosts = [
 <li>Meilleure rétention des talents</li>
 </ul>
   `,
-  date: "2024-04-10",
+  date: "2025-04-10",
   relatedPosts: ["1", "2", "7"],
 },
 {
@@ -194,7 +194,7 @@ export const blogPosts = [
 <li>Développement personnel</li>
 </ul>
   `,
-  date: "2024-04-09",
+  date: "2025-04-09",
   relatedPosts: ["2", "5", "8"],
 },
 {
@@ -226,7 +226,7 @@ export const blogPosts = [
 <li>Énergie stable</li>
 </ul>
   `,
-  date: "2024-04-08",
+  date: "2025-04-08",
   relatedPosts: ["4", "5", "9"],
 },
 {
@@ -258,7 +258,7 @@ export const blogPosts = [
 <li>Ajustements progressifs</li>
 </ul>
   `,
-  date: "2024-04-07",
+  date: "2025-04-07",
   relatedPosts: ["1", "2", "8"],
 },
 {
@@ -290,7 +290,7 @@ export const blogPosts = [
 <li>Motivation durable</li>
 </ul>
   `,
-  date: "2024-04-06",
+  date: "2025-04-06",
   relatedPosts: ["2", "7", "9"],
 },
 {
@@ -322,7 +322,7 @@ export const blogPosts = [
       <li>Motivation maintenue</li>
     </ul>
   `,
-  date: "2024-04-05",
+  date: "2025-04-05",
   relatedPosts: ["8", "4", "2"],
 },
 {
@@ -354,7 +354,7 @@ export const blogPosts = [
       <li>Solutions constructives</li>
     </ul>
   `,
-  date: "2024-04-04",
+  date: "2025-04-04",
   relatedPosts: ["9", "8", "4"],
 },
 {
@@ -386,7 +386,7 @@ export const blogPosts = [
       <li>Transitions fluides</li>
     </ul>
   `,
-  date: "2024-04-03",
+  date: "2025-04-03",
   relatedPosts: ["6", "2", "10"],
 },
 {
@@ -418,7 +418,7 @@ export const blogPosts = [
       <li>Projets évolutifs</li>
     </ul>
   `,
-  date: "2024-04-02",
+  date: "2025-04-02",
   relatedPosts: ["7", "10", "3"],
 },
 {
@@ -450,7 +450,7 @@ export const blogPosts = [
       <li>Gestion du stress</li>
     </ul>
   `,
-  date: "2024-04-01",
+  date: "2025-04-01",
   relatedPosts: ["8", "4", "12"],
 },
 {
@@ -482,7 +482,7 @@ export const blogPosts = [
       <li>Maintien de l'énergie</li>
     </ul>
   `,
-  date: "2024-03-31",
+  date: "2025-03-31",
   relatedPosts: ["7", "9", "13"],
 },
 {
@@ -514,7 +514,7 @@ export const blogPosts = [
       <li>Récupération efficace</li>
     </ul>
   `,
-  date: "2024-03-30",
+  date: "2025-03-30",
   relatedPosts: ["8", "15", "11"],
 },
 {
@@ -546,7 +546,7 @@ export const blogPosts = [
       <li>Conscience écologique</li>
     </ul>
   `,
-  date: "2024-03-29",
+  date: "2025-03-29",
   relatedPosts: ["8", "12", "15"],
 },
 {
@@ -578,7 +578,7 @@ export const blogPosts = [
       <li>Croissance commune</li>
     </ul>
   `,
-  date: "2024-03-28",
+  date: "2025-03-28",
   relatedPosts: ["12", "4", "15"],
 },
 {
@@ -610,7 +610,7 @@ export const blogPosts = [
       <li>Équilibre vie-argent</li>
     </ul>
   `,
-  date: "2024-03-27",
+  date: "2025-03-27",
   relatedPosts: ["6", "13", "10"],
 },
 {
@@ -642,7 +642,7 @@ export const blogPosts = [
       <li>Relation saine à l'alimentation</li>
     </ul>
   `,
-  date: "2024-03-26",
+  date: "2025-03-26",
   relatedPosts: ["8", "11", "17"],
 },
 {
@@ -674,7 +674,7 @@ export const blogPosts = [
       <li>Connexion sociale équilibrée</li>
     </ul>
   `,
-  date: "2024-03-25",
+  date: "2025-03-25",
   relatedPosts: ["13", "17", "19"],
 },
 {
@@ -706,7 +706,7 @@ export const blogPosts = [
       <li>Plaisir culinaire</li>
     </ul>
   `,
-  date: "2024-03-24",
+  date: "2025-03-24",
   relatedPosts: ["21", "14", "12"],
 },
 {
@@ -738,7 +738,7 @@ export const blogPosts = [
       <li>Culture responsable</li>
     </ul>
   `,
-  date: "2024-03-23",
+  date: "2025-03-23",
   relatedPosts: ["18", "21", "8"],
 },
 {
@@ -770,7 +770,7 @@ export const blogPosts = [
       <li>Partage créatif</li>
     </ul>
   `,
-  date: "2024-03-22",
+  date: "2025-03-22",
   relatedPosts: ["14", "23", "19"],
 }
 ];
