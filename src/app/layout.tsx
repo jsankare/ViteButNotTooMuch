@@ -31,7 +31,7 @@ export const metadata: Metadata = {
         siteName: "ViteButNotTooMuch",
         images: [
             {
-                url: "https://vitebutnottoomuch.vercel.app/icons/vitebutnottoomuch.svg",
+                url: "/vitebutnottoomuch.png",
                 width: 1200,
                 height: 630,
                 alt: "ViteButNotTooMuch - Petits challenges journaliers",
