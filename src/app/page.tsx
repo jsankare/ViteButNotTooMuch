@@ -7,6 +7,7 @@ export default function Home() {
   const [currentChallenge, setCurrentChallenge] = useState<Challenge | null>(null);
 
   const handleGetChallenge = () => {
+      console.log("handleGetChallenge called");
     setCurrentChallenge(getRandomChallenge());
   };
 

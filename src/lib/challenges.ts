@@ -158,6 +158,7 @@ export function getChallengesByBenefit(benefit: string): Challenge[] {
 
 // Original functions remain unchanged
 export function getRandomChallenge(): Challenge {
+  console.log("getRandomChallenge called");
   const randomIndex = Math.floor(Math.random() * challenges.length);
   return challenges[randomIndex];
 }

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google";
+import { Roboto, JetBrains_Mono } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/navigation";
 import { Analytics } from "@vercel/analytics/react";
@@ -7,9 +7,10 @@ import Script from "next/script";
 import "./globals.css";
 import SocialsSection from "@/components/socials";
 
-const inter = Inter({
-    variable: "--font-sans",
+const roboto = Roboto({
+    weight: ['400', '500', '700'],
     subsets: ["latin"],
+    variable: "--font-sans",
 });
 
 const jetbrainsMono = JetBrains_Mono({
@@ -70,7 +71,7 @@ export default function RootLayout({
             </Script>
             <meta name="google-site-verification" content="YiN8rtHRjhhkVaLHJvWGgkQTlmKxy7LMT2CQuaEmp68" />
         </head>
-        <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark`}>
+        <body className={`${roboto.variable} ${jetbrainsMono.variable} font-sans bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark`}>
         <ThemeProvider
             attribute="class"
             defaultTheme="system"
