@@ -55,9 +55,7 @@ export const metadata: Metadata = {
     metadataBase: new URL("https://vitebutnottoomuch.vercel.app/"),
 };
 
-export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
+export default function RootLayout({children,}: Readonly<{
     children: React.ReactNode;
 }>) {
     return (
@@ -103,7 +101,7 @@ export default function RootLayout({
         >
             <div className="flex flex-col min-h-screen">
                 <Navigation />
-                <main className="flex-grow max-w-5xl mx-auto px-4 py-8">
+                <main className="flex-grow min-h-screen">
                     {children}
                 </main>
                 <SocialsSection />
